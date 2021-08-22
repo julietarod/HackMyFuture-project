@@ -4,6 +4,9 @@
 .mb-3 {
   margin-top: 3px !important;
 }
+a {
+  text-decoration: none;
+}
 .header {
   min-height: 100px;
   width: 100%;
@@ -13,12 +16,11 @@
 }
 .navbar-fnt {
   font-size: smaller;
-  color: 423f3e;
+  color: black;
 }
 .nav-links {
   flex: 1;
   text-align: right;
-  text-decoration: none;
   padding-inline-end: 30px;
 }
 .nav-links ul li {
@@ -42,7 +44,7 @@ h4 {
   margin-top: 70px;
   margin-bottom: 80px;
   font-size: 17px;
-  padding-inline-start: 230px;
+  padding-inline-start: 220px;
 }
 .coWorking {
   color: #0b5ed7;
@@ -69,4 +71,25 @@ h6 {
   font-weight: bold;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+footer {
+  background-color: #0b5ed7;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footerList {
+  list-style: none;
+  text-align: left;
+  padding-left: 0%;
+}
+#instagram {
+  background-color: #f2f2b0;
+  color: #83580b;
+  margin-top: 10px;
+  font-size: smaller;
+  padding: 10px 50px 10px 50px;
 }
